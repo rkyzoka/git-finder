@@ -1,0 +1,143 @@
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.search {
+  display: flex;
+  gap: 12px;
+}
+
+.logo {
+  max-width: 3rem;
+}
+
+.search input {
+  padding: 0 0.6rem;
+  font-weight: 500;
+  background: none;
+  border: 1.5px solid #fff;
+  border-radius: 6px;
+}
+
+.search input::placeholder {
+  color: #fff;
+}
+
+.search input:focus {
+  color: #57606a;
+  background-color: white;
+  outline: none;
+}
+
+button {
+  padding: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+main {
+  margin: 3rem 0 6rem 0;
+}
+
+table {
+  font-size: 0.8rem;
+  border-collapse: collapse;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+thead tr th {
+  padding: 0.3rem 0.8rem;
+  background-color: #fff;
+  color: #9400d3;
+}
+
+thead th:first-child {
+  border-radius: 6px 0 0 0;
+}
+
+thead th:last-child {
+  border-radius: 0 6px 0 0;
+}
+
+tbody tr {
+  background: #8530d1;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background: #441a76;
+}
+
+.body-tr td {
+  color: white;
+}
+
+.body-tr td:first-child {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0rem 0 0;
+  text-align: left;
+  align-items: center;
+}
+
+.body-tr td img {
+  width: 50px;
+  height: 50px;
+  border: 1.6px solid #fff;
+  border-radius: 12px;
+}
+
+.body-tr td a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.6rem;
+}
+
+.tr-bio td {
+  text-align: start;
+  padding: 0.6rem 0.6rem 0.6rem 1rem;
+  color: #fff;
+}
+
+.footer {
+  width: 100%;
+  background: #000616;
+  height: 2.8rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 360px;
+  margin: 10px auto;
+}
+
+.footer div a {
+  font-size: 1.2rem;
+}
+
+.footer div p {
+  font-size: 0.7rem;
+  color: #fff;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
