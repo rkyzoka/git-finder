@@ -1,4 +1,4 @@
-const tbody = document.querySelector(".tbody");
+const tbody = document.querySelector("tbody");
 const input = document.querySelector("#search-user");
 const button = document.querySelector(".button");
 
