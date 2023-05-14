@@ -8,5 +8,13 @@
 }
 
 body {
-  background: #0b0116;
+  background: url("../img/bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 910px) {
+  body {
+    background: #000105;
+  }
 }
